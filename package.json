@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server#readme",
   "devDependencies": {
-    "live-server": "^1.2.0"
+    "live-server": "^1.2.1"
   }
 }

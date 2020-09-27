@@ -26,13 +26,13 @@
       <fieldset class="pure-group">
         <label for="name">Full Name: </label>
         <input id="name" name="name" 
-          required placeholder="What your Mom calls you" />
+          placeholder="What your mom calls you" required />
       </fieldset>
 
       <fieldset class="pure-group">
         <label for="phone">Phone Number: </label>
         <input id="phone" name="phone" 
-          required placeholder="408-981-8450"/>
+          required placeholder="xxx-xxx-xxx"/>
       </fieldset>
 
       <fieldset class="pure-group">
@@ -67,7 +67,7 @@
         </fieldset>
   
         <fieldset class="pure-group payments Venmo">
-          <input type="checkbox" name="Venmo" required onclick="dynInput(this);">
+          <input type="checkbox" name="Venmo" onclick="dynInput(this);">
           <label for="venmo">Venmo</label>
           <!-- <input type="text" placeholder="Venmo Handle"> -->
         </fieldset>
@@ -78,7 +78,7 @@
           <!-- <input type="text" placeholder="CashApp Handle"> -->
         </fieldset>
       </div>
-      
+
       <fieldset class="pure-group honeypot-field">
         <label for="honeypot">To help avoid spam, utilize a Honeypot technique with a hidden text field; must be empty to submit the form! Otherwise, we assume the user is a spam bot.</label>
         <input id="honeypot" type="text" name="honeypot" value="" />
